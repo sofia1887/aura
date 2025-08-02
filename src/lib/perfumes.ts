@@ -11,7 +11,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Ylang-Ylang', 'Orange Blossom'],
     baseNotes: ['Sandalwood', 'Musk'],
     description: 'An intoxicating bouquet of night-blooming flowers, wrapped in a warm, woody embrace. Mysterious and unforgettable.',
-    imageUrl: '/images/midnight-aura.png',
+    imageUrl: '/images/Midnight Aura.jpeg',
     isNew: true,
   },
   {
@@ -22,7 +22,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Cedarwood', 'Vetiver'],
     baseNotes: ['Amber', 'Oud'],
     description: 'A rich, smoky scent that evokes a crackling fireplace in a secluded forest cabin. For the bold and contemplative.',
-    imageUrl: '/images/woody-aura.png',
+    imageUrl: '/images/Woody Aura.jpeg',
     isNew: true,
   },
   {
@@ -33,7 +33,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Basil', 'Neroli'],
     baseNotes: ['Musk', 'Green Tea'],
     description: 'A vibrant and zesty fragrance, bursting with sun-ripened citrus fruits and fresh herbs. Energetic and uplifting.',
-    imageUrl: '/images/citrus-aura.png',
+    imageUrl: '/images/Citrus Aura.jpeg',
     isNew: false,
   },
   {
@@ -44,7 +44,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Rose', 'Magnolia'],
     baseNotes: ['Cedar', 'Ambergris'],
     description: 'A soft, romantic floral that feels like being enveloped in a cloud of pink petals. Delicate and gracefully feminine.',
-    imageUrl: '/images/aura-bloom.png',
+    imageUrl: '/images/Aura Bloom.jpeg',
     isNew: false,
   },
   {
@@ -55,7 +55,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Turkish Rose', 'Vanilla'],
     baseNotes: ['Patchouli', 'Frankincense'],
     description: 'A warm, spicy, and opulent fragrance that captures the magic of a sunset. Luxurious and deeply sensual.',
-    imageUrl: '/images/golden-hour.png',
+    imageUrl: '/images/Golden Hour.jpeg',
     isNew: false,
   },
   {
@@ -66,7 +66,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Sage', 'Seaweed'],
     baseNotes: ['Driftwood', 'Ambrette'],
     description: 'A clean, invigorating scent that brings to mind a brisk walk along a windswept coast. Crisp, and liberating.',
-    imageUrl: '/images/coastal-drift.png',
+    imageUrl: '/images/Coastal Drift.jpeg',
     isNew: false,
   },
    {
@@ -77,7 +77,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Plum', 'Tobacco'],
     baseNotes: ['Tonka Bean', 'Benzoin'],
     description: 'A daring and provocative blend of rich spices and dark fruit. Perfect for making a memorable statement.',
-    imageUrl: '/images/crimson-spice.png',
+    imageUrl: '/images/Crimson Spice.jpeg',
     isNew: true,
   },
   {
@@ -88,7 +88,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Oakmoss', 'Mushroom'],
     baseNotes: ['Patchouli', 'Black Truffle'],
     description: 'An earthy, grounding fragrance that smells of damp earth and ancient trees after a rainfall. Deeply calming.',
-    imageUrl: '/images/forest-floor.png',
+    imageUrl: '/images/Forest Floor.jpeg',
     isNew: false,
   },
 ];
