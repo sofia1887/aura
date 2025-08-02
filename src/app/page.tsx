@@ -5,10 +5,11 @@ import { perfumes, scentFamilies } from '@/lib/perfumes';
 import type { ScentFamily } from '@/types';
 import PerfumeCard from '@/components/perfume-card';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Sparkles, Leaf, Mountain, Flame, Citrus, Wind } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const newArrivals = perfumes.filter((p) => p.isNew);
 const allPerfumes = perfumes;
@@ -38,6 +39,30 @@ export default function Home() {
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-12">
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[400px] md:min-h-[500px] flex items-center justify-center text-center rounded-2xl overflow-hidden mb-12 md:mb-16 shadow-2xl">
+        <Image
+          src="https://placehold.co/1600x900.png"
+          alt="Abstract representation of perfume scents"
+          layout="fill"
+          objectFit="cover"
+          className="z-0"
+          data-ai-hint="abstract background"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20" />
+        <div className="relative z-10 text-white px-4">
+          <h1 className="text-4xl md:text-6xl font-headline font-bold mb-4 drop-shadow-lg animate-fade-in-down">
+            Find Your Signature Scent
+          </h1>
+          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md animate-fade-in-up">
+            Explore a world of exquisite fragrances and uncover the aroma that truly defines you.
+          </p>
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg py-6 px-10 rounded-full transition-transform transform hover:scale-105">
+            <Link href="/discover">Discover Now</Link>
+          </Button>
+        </div>
+      </section>
+
       {/* New Arrivals Section */}
       <section className="mb-12 md:mb-16">
         <div className="flex items-center gap-4 mb-6">
