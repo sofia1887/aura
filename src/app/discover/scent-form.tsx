@@ -1,6 +1,6 @@
 'use client';
 
-import { useFormState } from 'react-dom';
+import { useActionState } from 'react';
 import { generatePersonalizedScentProfile } from './actions';
 import type { Perfume } from '@/types';
 import { Checkbox } from '@/components/ui/checkbox';
@@ -20,7 +20,7 @@ interface ScentFormProps {
 }
 
 export function ScentForm({ perfumes }: ScentFormProps) {
-  const [state, formAction] = useFormState(generatePersonalizedScentProfile, initialState);
+  const [state, formAction] = useActionState(generatePersonalizedScentProfile, initialState);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">

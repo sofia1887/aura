@@ -42,7 +42,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] md:min-h-[500px] flex items-center justify-center text-center rounded-2xl overflow-hidden mb-12 md:mb-16 shadow-2xl">
         <Image
-          src="https://placehold.co/1600x900.png"
+          src="https://placehold.co/1200x800.png"
           alt="Abstract representation of perfume scents"
           layout="fill"
           objectFit="cover"
