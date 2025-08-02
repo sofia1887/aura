@@ -55,7 +55,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Turkish Rose', 'Vanilla'],
     baseNotes: ['Patchouli', 'Frankincense'],
     description: 'A warm, spicy, and opulent fragrance that captures the magic of a sunset. Luxurious and deeply sensual.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/golden-hour.png',
     isNew: false,
   },
   {
@@ -66,7 +66,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Sage', 'Seaweed'],
     baseNotes: ['Driftwood', 'Ambrette'],
     description: 'A clean, invigorating scent that brings to mind a brisk walk along a windswept coast. Crisp, and liberating.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/coastal-drift.png',
     isNew: false,
   },
    {
@@ -77,7 +77,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Plum', 'Tobacco'],
     baseNotes: ['Tonka Bean', 'Benzoin'],
     description: 'A daring and provocative blend of rich spices and dark fruit. Perfect for making a memorable statement.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/crimson-spice.png',
     isNew: true,
   },
   {
@@ -88,7 +88,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Oakmoss', 'Mushroom'],
     baseNotes: ['Patchouli', 'Black Truffle'],
     description: 'An earthy, grounding fragrance that smells of damp earth and ancient trees after a rainfall. Deeply calming.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/forest-floor.png',
     isNew: false,
   },
 ];
