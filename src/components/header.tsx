@@ -35,24 +35,6 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-         <nav className="flex md:hidden items-center space-x-4">
-           {navItems.map((item) => {
-            const Icon = item.icon;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={cn(
-                  'p-2 rounded-full transition-colors hover:bg-muted',
-                  pathname === item.href ? 'text-primary' : 'text-foreground/70'
-                )}
-                aria-label={item.label}
-              >
-                <Icon className="h-6 w-6" />
-              </Link>
-            )
-           })}
-        </nav>
       </div>
     </header>
   );

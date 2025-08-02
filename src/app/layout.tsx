@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import { Toaster } from "@/components/ui/toaster"
+import MobileNav from '@/components/mobile-nav';
 
 export const metadata: Metadata = {
   title: 'AuraSense',
@@ -24,8 +25,9 @@ export default function RootLayout({
       </head>
       <body className={cn('font-body antialiased flex flex-col min-h-screen')}>
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow pb-24 md:pb-0">{children}</main>
         <Footer />
+        <MobileNav />
         <Toaster />
       </body>
     </html>
