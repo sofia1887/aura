@@ -11,7 +11,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Ylang-Ylang', 'Orange Blossom'],
     baseNotes: ['Sandalwood', 'Musk'],
     description: 'An intoxicating bouquet of night-blooming flowers, wrapped in a warm, woody embrace. Mysterious and unforgettable.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/midnight-aura.png',
     isNew: true,
   },
   {
@@ -22,7 +22,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Cedarwood', 'Vetiver'],
     baseNotes: ['Amber', 'Oud'],
     description: 'A rich, smoky scent that evokes a crackling fireplace in a secluded forest cabin. For the bold and contemplative.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/woody-aura.png',
     isNew: true,
   },
   {
@@ -33,7 +33,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Basil', 'Neroli'],
     baseNotes: ['Musk', 'Green Tea'],
     description: 'A vibrant and zesty fragrance, bursting with sun-ripened citrus fruits and fresh herbs. Energetic and uplifting.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/citrus-aura.png',
     isNew: false,
   },
   {
@@ -44,7 +44,7 @@ export const perfumes: Perfume[] = [
     heartNotes: ['Rose', 'Magnolia'],
     baseNotes: ['Cedar', 'Ambergris'],
     description: 'A soft, romantic floral that feels like being enveloped in a cloud of pink petals. Delicate and gracefully feminine.',
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: '/images/aura-bloom.png',
     isNew: false,
   },
   {
