@@ -9,7 +9,6 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Sparkles, Leaf, Mountain, Flame, Citrus, Wind } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const newArrivals = perfumes.filter((p) => p.isNew);
 const allPerfumes = perfumes;
@@ -41,13 +40,13 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8 md:py-12">
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] md:min-h-[500px] flex items-center justify-center text-center rounded-2xl overflow-hidden mb-12 md:mb-16 shadow-2xl">
-        <Image
-          src="https://placehold.co/1200x800.png"
-          alt="Abstract representation of perfume scents"
-          layout="fill"
-          objectFit="cover"
-          className="z-0"
-          data-ai-hint="abstract background"
+        <video
+          src="/videos/Standard_Mode_Generated_Video (5).mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20" />
         <div className="relative z-10 text-white px-4">
