@@ -41,7 +41,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] md:min-h-[500px] flex items-center justify-center text-center rounded-2xl overflow-hidden mb-12 md:mb-16 shadow-2xl">
         <video
-          src="/videos/Standard_Mode_Generated_Video (5).mp4"
+          src="/images/Standard_Mode_Generated_Video%20(5).mp4"
           autoPlay
           loop
           muted
